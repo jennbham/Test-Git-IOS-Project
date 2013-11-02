@@ -21,6 +21,7 @@
 		DF68AEB31824676F004B2235 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DF68AE951824676F004B2235 /* UIKit.framework */; };
 		DF68AEBB1824676F004B2235 /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = DF68AEB91824676F004B2235 /* InfoPlist.strings */; };
 		DF68AEBD1824676F004B2235 /* Git_TestTests.m in Sources */ = {isa = PBXBuildFile; fileRef = DF68AEBC1824676F004B2235 /* Git_TestTests.m */; };
+		DF68AEC81824B2A1004B2235 /* JRTest.m in Sources */ = {isa = PBXBuildFile; fileRef = DF68AEC71824B2A1004B2235 /* JRTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -53,6 +54,8 @@
 		DF68AEB81824676F004B2235 /* Git TestTests-Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = "Git TestTests-Info.plist"; sourceTree = "<group>"; };
 		DF68AEBA1824676F004B2235 /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/InfoPlist.strings; sourceTree = "<group>"; };
 		DF68AEBC1824676F004B2235 /* Git_TestTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Git_TestTests.m; sourceTree = "<group>"; };
+		DF68AEC61824B2A1004B2235 /* JRTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = JRTest.h; sourceTree = "<group>"; };
+		DF68AEC71824B2A1004B2235 /* JRTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = JRTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +122,8 @@
 				DF68AEA71824676F004B2235 /* JRViewController.m */,
 				DF68AEA91824676F004B2235 /* Images.xcassets */,
 				DF68AE981824676F004B2235 /* Supporting Files */,
+				DF68AEC61824B2A1004B2235 /* JRTest.h */,
+				DF68AEC71824B2A1004B2235 /* JRTest.m */,
 			);
 			path = "Git Test";
 			sourceTree = "<group>";
@@ -253,6 +258,7 @@
 				DF68AEA21824676F004B2235 /* JRAppDelegate.m in Sources */,
 				DF68AEA81824676F004B2235 /* JRViewController.m in Sources */,
 				DF68AE9E1824676F004B2235 /* main.m in Sources */,
+				DF68AEC81824B2A1004B2235 /* JRTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -461,6 +467,7 @@
 				DF68AEC21824676F004B2235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		DF68AEC31824676F004B2235 /* Build configuration list for PBXNativeTarget "Git TestTests" */ = {
 			isa = XCConfigurationList;
@@ -469,6 +476,7 @@
 				DF68AEC51824676F004B2235 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
